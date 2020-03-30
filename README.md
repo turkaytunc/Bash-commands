@@ -4,13 +4,9 @@ _**alias**_ komutu ile bash kabuk programında temel komutlara yeni ad tahsis ed
 
 ```bash
 alias dir=ls
-```
 
-```bash
 alias tester="npm test --watch"
-```
 
-```bash
 unalias tester dir
 ```
 
