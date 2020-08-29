@@ -14,17 +14,17 @@ which echo
 ```
 
 ```bash
-#print current directory
+# print current directory
 pwd
 ```
 
 ```bash
-#previous folder
+# previous folder
 cd -
 ```
 
 ```bash
-#rename file
+# rename file
 mv oldName.txt newName.txt
 ```
 
@@ -42,9 +42,8 @@ cat < hello.txt > newFile.txt
 ```
 
 ```bash
-
-
-
+# ">>" append
+cat < hello.txt >> newFile.txt
 ```
 
 ```bash
