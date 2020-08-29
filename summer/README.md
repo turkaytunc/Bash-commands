@@ -19,6 +19,11 @@ pwd
 ```
 
 ```bash
+# clear shell history
+history -c
+```
+
+```bash
 # previous folder
 cd -
 ```
@@ -31,6 +36,11 @@ mv oldName.txt newName.txt
 ```bash
 # copy file, you can change name while copy
 cp data.txt ~/newFolder/items/newName.txt
+```
+
+```bash
+# copy multiple files
+cp {data.txt,hello.txt,another.sh} ~/newFolder/items/
 ```
 
 ```bash
