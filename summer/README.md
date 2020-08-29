@@ -9,11 +9,12 @@ echo $PATH
 ```
 
 ```bash
-#command path
+# command path
 which echo
 ```
 
 ```bash
+# print current directory
 pwd
 ```
 
@@ -23,14 +24,13 @@ cd -
 ```
 
 ```bash
-
-
-
+# rename file
+mv oldName.txt newName.txt
 ```
 
 ```bash
-
-
+# copy file, you can change name while copy
+cp data.txt ~/newFolder/items/newName.txt
 
 ```
 
