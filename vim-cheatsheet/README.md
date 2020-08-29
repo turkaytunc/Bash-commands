@@ -44,17 +44,19 @@ o / O insert line below / above
 
 d{motion} delete {motion}
 e.g. dw is delete word, d\$ is delete to end of line, d0 is delete to beginning of line
-c{motion} change {motion}  
- e.g. cw is change word
-like d{motion} followed by i
+
+c{motion} change {motion}
+e.g. cw is change word like d{motion} followed by i
 
 x delete character (equal do dl)
 
 s substitute character (equal to xi)
 
 Visual mode + manipulation  
-select text, d to delete it or c to change it  
+select text, d to delete it or c to change it
+
 u to undo, "Ctrl+r" to redo
+
 y to copy /"yank" (some other commands like d also copy)
 
 p to paste
