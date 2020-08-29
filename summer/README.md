@@ -14,8 +14,8 @@ which echo
 ```
 
 ```bash
-# bash will see this as cp project project1 project2
-cp project{,1,2}
+# bash will see this as mkdir project project1 project2
+mkdir project{,1,2}
 ```
 
 ```bash
