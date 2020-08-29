@@ -14,6 +14,11 @@ which echo
 ```
 
 ```bash
+# bash will see this as cp project project1 project2
+cp project{,1,2}
+```
+
+```bash
 # print current directory
 pwd
 ```
